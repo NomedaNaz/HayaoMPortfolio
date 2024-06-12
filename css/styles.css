@@ -40,14 +40,12 @@ p {
 .navbar-nav .nav-link {
     transition: color 0.3s ease;
 }
-
 .navbar-nav .nav-link:hover {
     color: var(--my-accent-color-light);
 }
 nav[data-bs-theme="dark"]{
   background:var(--my-brand-color); 
 }
-
 .btn-outline-success {
     color:var(--my-special-btn-color);
     background: var(--my-special-search-btn-background-color);
@@ -59,9 +57,6 @@ nav[data-bs-theme="dark"]{
  color: var(--my-special-search-btn-background-color);
     border-color: #0A04BF;
 }
-
-
-
 .btn-primary {
     background:var(--my-brand-color);
     border:var(--my-brand-color);
@@ -74,15 +69,12 @@ nav[data-bs-theme="dark"]{
     background:var(--my-accent-color-light);
     color: darkgrey;
 }
-
 .btn-primary:focus {
      background:var(--bs-teal);
     border:var(--my-brand-color);
     box-shadow: 0 0 0 .25rem rgba(25,135,84,.5);
         color:var(--my-special-btn-color);
 }
-
-
 a.active {
   border-bottom: 1px solid var(--my-brand-color) ;
 }
@@ -146,15 +138,12 @@ footer i {
 	padding-bottom: 5rem;
 	text-align: center;
 }
-
 .header .h1-large {
 	margin-bottom: 1.25rem;
 }
-
 .header .p-large {
 	margin-bottom: 2.75rem;
 }
-
 .header .btn-solid-lg {
 	display: block;
 	margin-bottom: 1.75rem;
@@ -163,30 +152,24 @@ footer i {
 	padding-top: 2.5rem;
 	padding-bottom: 5rem;
 }
-
 .basic-1 .image-container {
 	margin-bottom: 4rem;
 }
-
 .basic-1 h2 {
 	margin-bottom: 1.5rem;;
 }
-
 .basic-1 h2 span {
 	font-weight: 400;
 }
-
 .basic-1 p:last-of-type {
 	margin-bottom: 2rem;
 }
-
 .basic-1 .btn-solid-reg {
 	cursor: pointer;
 }
  #carouselExample {
     max-height: auto;
 }
-
 .carousel-inner img {
     width: 100%; 
     height: 600px; 
@@ -205,24 +188,6 @@ footer i {
 .count-up {
       animation: count-up 1s ease-out;
     }
- .newsletter-container {
-    max-width: 800px;
-    margin: 100px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 3px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.newsletter-container label{
-    font-family: 'Lato', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: #2c002b;
-}
-.newsletter-title {
-    text-align: center;
-    margin-bottom: 1.5rem;
-}
 
 .btn-newsletter {
     width: 50%; 
@@ -259,15 +224,6 @@ footer i {
     font-size: 2.5rem;
 }
 
-.quote-section {
-    background-color: #6805F2;
-    color: #fff;
-    padding: 80px 0;
-}
-
-.quote-section blockquote {
-    border-left: 5px solid #fff;
-}
 .program-card {
     border: 1px solid #3E3240; 
     border-radius: 10px;
@@ -275,60 +231,6 @@ footer i {
     margin-bottom: 20px;
 }
 
-.vertical-line {
-    border-left: 2px solid #3E3240;
-    height: 100%;
-}
-.special-back {
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0)
-    ),
-    url(../Images/hacking2.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.values-section h2{
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-.value-items .icon{
-    color: #F205E2;
-    font-size: 36px;
-    display: block;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    border-radius: 100%;
-    border: solid 2px #F205E2;
-    margin: 0 auto 30px;
-    line-height: 98px;
-}
-
-.value-items h4{
-    margin-bottom: 20px;
-    text-transform: capitalize;
-    text-align: center;   
-}
-
-.value-items h4 a{
-    color: #2c002b;
-}
-
-.value-items h4 a:hover{
-    color: #F205E2;
-}
-
-.value-items p{
-    margin-bottom: 30px;
-     text-align: center
-}
 h5 {
     color: #2c002b;
     font-family: 'Kanit', sans-serif;
